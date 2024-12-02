@@ -17,8 +17,8 @@ See our ArXiv version for dataset details and set their paths in the config file
    2. `cd segment-anything`
    3. `pip install -e .`
 2. Install SAM 2:
-   1. `git clone https://github.com/facebookresearch/sam2.git`
-   2. `cd sam2`
+   1. `git clone https://github.com/facebookresearch/sam2.git segment-anything2` (Use a separate folder for `sam2` code.)
+   2. `cd segment-anything2`
    3. `pip install -e .`
 3. Download SAM and SAM 2 checkpoints and assign their paths to the items `sam-l` and `sam2-l` of the config file:
    1. `vit_l` checkpoint from <https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints>.
