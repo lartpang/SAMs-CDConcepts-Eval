@@ -1,0 +1,63 @@
+checkpoint:
+  "sam-l": "checkpoints/sam_vit_l_0b3195.pth"
+  "sam2-l": "checkpoints/sam2_hiera_large.pt"
+
+dataset:
+  # image sod
+  "DUTS-TR":
+    "image":
+      "root": "ImageDataset/DUTS/DUTS-TR/DUTS-TR-Image"
+      "suffix": ".jpg"
+    "mask":
+      "root": "ImageDataset/DUTS/DUTS-TR/DUTS-TR-Mask"
+      "suffix": ".png"
+  "DUTS-TE":
+    "image":
+      "root": "ImageDataset/DUTS/DUTS-TE/DUTS-TE-Image"
+      "suffix": ".jpg"
+    "mask":
+      "root": "ImageDataset/DUTS/DUTS-TE/DUTS-TE-Mask"
+      "suffix": ".png"
+  "ECSSD":
+    "image":
+      "root": "ImageDataset/ECSSD/images"
+      "suffix": ".jpg"
+    "mask":
+      "root": "ImageDataset/ECSSD/ground_truth_mask"
+      "suffix": ".png"
+  # image camouflaged object detection
+  # image shadow detection
+  # image transparent object segmentation
+  # image industrial PBD
+  # image industrial AD
+  # image lesion object segmentation
+  # video polyp segmentation
+  # video salient object detection
+  "DAVIS16-Val":
+    "image":
+      "root": "VideoDataset/DAVIS16-Val/JPEGImages/1080p"
+      "subdir": ""
+      "suffix": ".jpg"
+    "mask":
+      "root": "VideoDataset/DAVIS16-Val/Annotations/1080p"
+      "subdir": ""
+      "suffix": ".png"
+  # video camouflaged object detection
+  "MoCA-Mask-TE":
+    "image":
+      "root": "VideoDataset/MoCA-Mask/MoCA_Video/TestDataset_per_sq"
+      "subdir": "Imgs"
+      "suffix": ".jpg"
+    "mask":
+      "root": "VideoDataset/MoCA-Mask/MoCA_Video/TestDataset_per_sq"
+      "subdir": "GT"
+      "suffix": ".png"
+  "CAD":
+    "image":
+      "root": "VideoDataset/CamouflagedAnimalDataset/original_data"
+      "subdir": "frames"
+      "suffix": ".png"
+    "mask":
+      "root": "VideoDataset/CamouflagedAnimalDataset/converted_mask"
+      "subdir": "groundtruth"
+      "suffix": ".png"
