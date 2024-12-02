@@ -34,3 +34,10 @@ Run the corresponding commands (see [./run.sh](./run.sh)) to generate prediction
 
 - <https://github.com/Xiaoqi-Zhao-DLUT/PySegMetric_EvalToolkit>
 - <https://github.com/zhaoyuan1209/PyADMetric_EvalToolkit>
+
+## Contributors
+
+- [@lartpang](https://github.com/lartpang)
+- [@Xiaoqi-Zhao-DLUT](https://github.com/Xiaoqi-Zhao-DLUT)
+- [@DUT-CSJ](https://github.com/DUT-CSJ)
+- [@zhaoyuan1209](https://github.com/zhaoyuan1209)
