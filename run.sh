@@ -58,9 +58,9 @@ python run_sams_for_image.py --config config.yaml --model sam-l --dataset DUTS-T
 python run_sams_for_image.py --config config.yaml --model sam2-l --dataset DUTS-TE --output output --prompt_type bbox --perturbation
 python run_sams_for_image.py --config config.yaml --model sam2-l --dataset DUTS-TE --output output --prompt_type point --perturbation
 # - SAM image segmentation robustness with perturbed prompts
-python run_sam1_for_video.py --config config.yaml --model sam-l --dataset DAVIS16 --output output --prompt_type bbox --perturbation
-python run_sam1_for_video.py --config config.yaml --model sam-l --dataset DAVIS16 --output output --prompt_type point --perturbation
+python run_sam1_for_video.py --config config.yaml --dataset DAVIS16-Val --output output --prompt_type bbox --propagation
+python run_sam1_for_video.py --config config.yaml --dataset DAVIS16-Val --output output --prompt_type point --propagation
 # - SAM 2 image segmentation robustness with perturbed prompts
-python run_sam2_for_video.py --config config.yaml --model sam2-l --dataset DAVIS16 --output output --prompt_type bbox --perturbation
-python run_sam2_for_video.py --config config.yaml --model sam2-l --dataset DAVIS16 --output output --prompt_type point --perturbation
-python run_sam2_for_video.py --config config.yaml --model sam2-l --dataset DAVIS16 --output output --prompt_type mask --perturbation
+python run_sam2_for_video.py --config config.yaml --num_prompts 1 --dataset DAVIS16-Val --output output --prompt_type bbox --perturbation
+python run_sam2_for_video.py --config config.yaml --num_prompts 1 --dataset DAVIS16-Val --output output --prompt_type point --perturbation
+python run_sam2_for_video.py --config config.yaml --num_prompts 1 --dataset DAVIS16-Val --output output --prompt_type mask --perturbation
