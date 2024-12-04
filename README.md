@@ -50,3 +50,17 @@ Run the corresponding commands (see [./run.sh](./run.sh)) to generate prediction
 - [@Xiaoqi-Zhao-DLUT](https://github.com/Xiaoqi-Zhao-DLUT)
 - [@DUT-CSJ](https://github.com/DUT-CSJ)
 - [@zhaoyuan1209](https://github.com/zhaoyuan1209)
+
+## Citation
+
+```bibtex
+@misc{Eva_SAMs,
+      title={Inspiring the Next Generation of Segment Anything Models: Comprehensively Evaluate SAM and SAM 2 with Diverse Prompts Towards Context-Dependent Concepts under Different Scenes}, 
+      author={Xiaoqi Zhao and Youwei Pang and Shijie Chang and Yuan Zhao and Lihe Zhang and Huchuan Lu and Jinsong Ouyang and Georges El Fakhri and Xiaofeng Liu},
+      year={2024},
+      eprint={2412.01240},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.01240}, 
+}
+```
