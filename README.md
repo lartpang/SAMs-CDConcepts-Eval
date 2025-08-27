@@ -7,7 +7,9 @@
   <img src="https://img.shields.io/github/last-commit/lartpang/SAMs-CDConcepts-Eval">
 </div>
 
-As a foundational model, SAM has significantly influenced multiple fields within computer vision, and its upgraded version, SAM 2, enhances capabilities in video segmentation, poised to make a substantial impact once again. While SAMs (SAM and SAM 2) have demonstrated excellent performance in segmenting context-independent concepts like people, cars, and roads, they overlook more challenging context-dependent (CD) concepts, such as visual saliency, camouflage, product defects, and medical lesions. CD concepts rely heavily on global and local contextual information, making them susceptible to shifts in different contexts, which requires strong discriminative capabilities from the model. The lack of comprehensive evaluation of SAMs limits understanding of their performance boundaries, which may hinder the design of future models. In this paper, we conduct a thorough quantitative evaluation of SAMs on 11 CD concepts across 2D and 3D images and videos in various visual modalities within natural, medical, and industrial scenes. We develop a unified evaluation framework for SAM and SAM 2 that supports manual, automatic, and intermediate self-prompting, aided by our specific prompt generation and interaction strategies. We further explore the potential of SAM 2 for in-context learning and introduce prompt robustness testing to simulate real-world imperfect prompts. Finally, we analyze the benefits and limitations of SAMs in understanding CD concepts and discuss their future development in segmentation tasks. This work aims to provide valuable insights to guide future research in both context-independent and context-dependent concepts segmentation, potentially informing the development of the next version -- SAM 3.
+As large-scale foundation models trained on billions of image–mask pairs covering a vast diversity of scenes, objects, and contexts, SAM and its upgraded version, SAM 2, have significantly influenced multiple fields within computer vision. Leveraging such unprecedented data diversity, they exhibit strong open-world segmentation capabilities, with SAM 2 further enhancing these capabilities to support high-quality video segmentation. 
+While SAMs (SAM and SAM 2) have demonstrated excellent performance in segmenting context-independent concepts like people, cars, and roads, they overlook more challenging context-dependent (CD) concepts, such as visual saliency, camouflage, industrial defects, and medical lesions. CD concepts rely heavily on global and local contextual information, making them susceptible to shifts in different contexts, which requires strong discriminative capabilities from the model. 
+The lack of comprehensive evaluation of SAMs limits understanding of their performance boundaries, which may hinder the design of future models. In this paper, we conduct a thorough evaluation of SAMs on 11 CD concepts across 2D and 3D images and videos in various visual modalities within natural, medical, and industrial scenes. We develop a unified evaluation framework for SAM and SAM 2 that supports manual, automatic, and intermediate self-prompting, aided by our specific prompt generation and interaction strategies. We further explore the potential of SAM 2 for in-context learning and introduce prompt robustness testing to simulate real-world imperfect prompts. Finally, we analyze the benefits and limitations of SAMs in understanding CD concepts and discuss their future development in segmentation tasks. This work aims to provide valuable insights to guide future research in both context-independent and context-dependent concepts segmentation, potentially informing the development of the next version — SAM 3.
 
 ## Usage
 
@@ -44,6 +46,10 @@ Run the corresponding commands (see [./run.sh](./run.sh)) to generate prediction
 - <https://github.com/Xiaoqi-Zhao-DLUT/PySegMetric_EvalToolkit>
 - <https://github.com/zhaoyuan1209/PyADMetric_EvalToolkit>
 
+## Awesome-Unified-Context-dependent-Concept-Segmentation
+
+- <https://github.com/Xiaoqi-Zhao-DLUT/Awesome-Unified-Context-dependent-Concept-Segmentation>
+
 ## Contributors
 
 - [@lartpang](https://github.com/lartpang)
@@ -56,7 +62,7 @@ Run the corresponding commands (see [./run.sh](./run.sh)) to generate prediction
 ```bibtex
 @misc{Eva_SAMs,
       title={Inspiring the Next Generation of Segment Anything Models: Comprehensively Evaluate SAM and SAM 2 with Diverse Prompts Towards Context-Dependent Concepts under Different Scenes}, 
-      author={Xiaoqi Zhao and Youwei Pang and Shijie Chang and Yuan Zhao and Lihe Zhang and Huchuan Lu and Georges El Fakhri and Xiaofeng Liu},
+      author={Xiaoqi Zhao and Youwei Pang and Shijie Chang and Yuan Zhao and Lihe Zhang and  Chenyang Yu and Hanqi Liu and Jiaming Zuo and Jinsong Ouyang and Weisi Lin and Georges El Fakhri and Huchuan Lu and Xiaofeng Liu},
       year={2025},
       eprint={2412.01240},
       archivePrefix={arXiv},
