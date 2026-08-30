@@ -55,7 +55,7 @@ Run the corresponding commands (see [./run.sh](./run.sh)) to generate prediction
 - [@lartpang](https://github.com/lartpang)
 - [@Xiaoqi-Zhao-DLUT](https://github.com/Xiaoqi-Zhao-DLUT)
 - [@DUT-CSJ](https://github.com/DUT-CSJ)
-- [@zhaoyuan1209](https://github.com/zhaoyuan1209)
+- [@yuanzhao-CVLAB](https://github.com/yuanzhao-CVLAB)
 
 ## Citation
 
